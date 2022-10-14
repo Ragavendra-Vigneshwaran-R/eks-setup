@@ -1,4 +1,4 @@
-#!\bin\sh
+#!/bin/sh
 echo "Enter the region code : "
 read region_code
 echo "Enter the cluster name : "
