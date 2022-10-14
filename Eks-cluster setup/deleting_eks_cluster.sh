@@ -4,7 +4,7 @@ echo "kubectl get svc --all-namespaces"
 echo "kubectl delete svc <service-name>"
 echo "Did you delete all service with loadBalancer?(Y/N)"
 read answer
-if [ $ans = "Y" ]
+if [ $answer = "Y" ]
 then 
     echo "Enter your cluster name : "
     read cluster_name
